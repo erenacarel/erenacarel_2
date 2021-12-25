@@ -1,7 +1,7 @@
 # erenacarel_2
 ESP32 and OLED TFT SCREEN
 
-TR:
+TR Açıklama:
 ESP32 ile OLED ekran üzerinde konuma göre şekil çizmesini hedefledim. Yani ekran alt tarafa doğru eğildiğinde alt tarafa orayı dolduracak biçimde dikdörtgen çizmesini sağladım. 
 Bununla birlikte ekran üst tarafa doğru eğildiğinde oraya dikdörtgen çizmesini sağladım. Ekran çaprazlara doğru eğilidiğinde ise oradaki köşe kısmına üçgen çizmesini sağladım.
 Sürekli ekranın konumu değiştiğinde ekranımız kendini güncelleyecek ve ekranın eğildiği yere şekil çizilecektir.
@@ -10,7 +10,7 @@ ESP32 ile OLED ekran üzerinde, işlemcimize bağlı olan sıcaklık/nem(SHTC3) 
 
 ESP32 işlemcimize bağlı 4 adet neopixel ledlerin rastgele bir renkte yanmasını sağladım. Bununla birlikte yine şekil çiziminde olduğu gibi eğim olan yerde bazı neopixel ledlerin yanmasını sağladım. 
 
-ENG:
+ENG explanation:
 With ESP32, I aimed to draw a shape according to the position on the OLED screen. In other words, when the screen is tilted towards the bottom, I have it draw a rectangle on the 
 bottom side to fill it. However, when the screen is tilted towards the top, I have it draw a rectangle there. When the screen is tilted towards the diagonals, I made it draw a 
 triangle on the corner there. When the position of the screen changes constantly, our screen will update itself and a shape will be drawn where the screen is tilted.
