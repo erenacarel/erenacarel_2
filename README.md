@@ -25,6 +25,8 @@ için gfx_triangle_lib.py kütüphanesini kullandım. Ekranın konumuna göre ne
 
 xglcd_font.py  --> Bu kütüphanemiz ekrana text yazdırırken font oluşturmada işimize yaramaktadır. Ben expresso_dolce fontunu kullandım. 
 
+main.py  --> Bu dosyamızda okunması gereken değerlerin tanımını ve onların karşılığını ayrı ayrı yazdık. Sebebi ise ekrana yazdırma işlemini daha hızlı gerçekleştirmektir. 
+
 
 ENG explanation:
 With ESP32, I aimed to draw a shape according to the position on the OLED screen. In other words, when the screen is tilted towards the bottom, I have it draw a rectangle on the 
@@ -49,4 +51,4 @@ gfx_triangle_lib.py library to draw a border. I wanted the neopixel lights to tu
 
 xglcd_font.py  --> This library is useful for creating fonts while printing text on the screen. I used expresso_dolce font.
 
-
+main.py  --> In this file, I wrote the definition of the values that should be read and their equivalents separately. The reason is to perform the printing to the screen faster.
