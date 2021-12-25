@@ -17,6 +17,9 @@ yapılabiliyor. Üçgen çizimi için gfx_triangle_lib.py kütüphanesinden GFX 
 
 tri_rect_neopixel_toget.py  -->  Bu dosyada ekranın konum pozisyonuna göre sadece üçgen veya dikdörgen çizilmesini hedefledim.
 
+neopix.py  --> Bu dosyamızda neopixel ledleri için kütüphane bulunmaktadır. Elimizdeki 4 adet neopixel ledi bir while döngüsünde döndürebiliriz ve rastgele renkler elde 
+edebiliriz.
+
 ENG explanation:
 With ESP32, I aimed to draw a shape according to the position on the OLED screen. In other words, when the screen is tilted towards the bottom, I have it draw a rectangle on the 
 bottom side to fill it. However, when the screen is tilted towards the top, I have it draw a rectangle there. When the screen is tilted towards the diagonals, I made it draw a 
@@ -32,3 +35,5 @@ tri_rect_toget.py  --> Rectangle and triangle are drawn together at the position
 on the screen with display.clear(). For triangle drawing, I assigned the GFX class to the graphics variable from the gfx_triangle_lib.py library.
 
 tri_rect_neopixel_toget.py  --> In this file, I aimed to draw only triangles or rectangles according to the position location of the screen.
+
+neopixel.py  --> In this file, there is a library for neopixel leds. We can rotate 4 neopixel LEDs in a while loop and get random colors.
