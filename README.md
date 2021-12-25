@@ -20,6 +20,9 @@ tri_rect_neopixel_toget.py  -->  Bu dosyada ekranın konum pozisyonuna göre sad
 neopix.py  --> Bu dosyamızda neopixel ledleri için kütüphane bulunmaktadır. Elimizdeki 4 adet neopixel ledi bir while döngüsünde döndürebiliriz ve rastgele renkler elde 
 edebiliriz.
 
+mainYedek2.py  --> Bu dosyamızda sıcaklık/nem, konum ve buton değerlerimizi yazdırmayı hedefledim. Text yazdırmak için ili9341.py kütüphanesinden faydalandım. Araya sınır çizmek 
+için gfx_triangle_lib.py kütüphanesini kullandım. Ekranın konumuna göre neopixel ışıkların rastgele renkte yanmasını istedim.
+
 ENG explanation:
 With ESP32, I aimed to draw a shape according to the position on the OLED screen. In other words, when the screen is tilted towards the bottom, I have it draw a rectangle on the 
 bottom side to fill it. However, when the screen is tilted towards the top, I have it draw a rectangle there. When the screen is tilted towards the diagonals, I made it draw a 
@@ -37,3 +40,10 @@ on the screen with display.clear(). For triangle drawing, I assigned the GFX cla
 tri_rect_neopixel_toget.py  --> In this file, I aimed to draw only triangles or rectangles according to the position location of the screen.
 
 neopixel.py  --> In this file, there is a library for neopixel leds. We can rotate 4 neopixel LEDs in a while loop and get random colors.
+
+mainYedek2.py  --> In this file, I aimed to print our temperature/humidity, location and button values. I used the ili9341.py library to print text. I used the 
+gfx_triangle_lib.py library to draw a border. I wanted the neopixel lights to turn on in a random color according to the position of the screen.
+
+
+
+
